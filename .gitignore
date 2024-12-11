@@ -1,0 +1,40 @@
+# Node.js
+node_modules/
+
+# Angular build artifacts
+dist/
+build/
+tmp/
+out-tsc/
+
+# IDE/editor specific files
+.vscode/
+.idea/
+
+# Operating system files
+.DS_Store
+Thumbs.db
+
+# NPM debug log
+npm-debug.log*
+
+# Package-lock and Yarn lock files
+package-lock.json
+yarn.lock
+
+# dotenv environment variable files
+.env
+.env.test
+.env.production
+
+# Angular CLI cache
+.angular/
+
+# Test coverage and reports
+coverage/
+
+# Editor and OS specific files
+*.swp
+*.swo
+*.bak
+*.orig
