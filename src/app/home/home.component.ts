@@ -20,20 +20,27 @@ import { RouterLinkActive, RouterOutlet, RouterLink } from '@angular/router';
 export class HomeComponent implements OnInit {
 
   dynamicText: string = "";
-  phrases: string[] =[
-    "Team Player.",
-    "Software Developer.",
-    "Backend Engineer.",
+  phrases: string[] = [
     "Software Engineer.",
-    "Code Enthusiast.",
+    "Backend Engineer.",
+    "Full-Stack Developer.",
+    "Microservices Enthusiast.",
+    "Scalable System Designer.",
+    "API Specialist.",
+    "Software Architect.",
+    "Problem Solver.",
+    "DevOps Learner.",
+    "Code Craftsman.",
+    "Clean Architecture Fanatic."
   ];
+  
 
   currentPhraseIndex: number = 0;
   currentCharIndex: number = 0;
   isDeleting: boolean = false;
-  typingSpeed: number = 100;
-  deletingSpeed: number = 100;
-  delayBetweenPhrases: number = 2000;
+  typingSpeed: number = 10;
+  deletingSpeed: number = 50;
+  delayBetweenPhrases: number = 1000;
 
   constructor(private titleService: Title) {
     this.titleService.setTitle('PB | Home')

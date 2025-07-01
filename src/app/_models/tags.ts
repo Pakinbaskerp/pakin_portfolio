@@ -38,11 +38,12 @@ export class Tag {
     static readonly FASTAPI = new Tag('FastAPI', '#4a6a77');
     static readonly SQLITE = new Tag('SQLite', '#355158');
     static readonly PYDANTIC = new Tag('Pydantic', '##4a6a77');
-
-
-
-
-
+    static readonly TKINTER = new Tag('Tkinter', '#4a6a77');
+    static readonly DOTNET = new Tag('.NET Core', '#5a7581');
+    static readonly RABBITMQ = new Tag('RabbitMQ', '#ff6600');
+    static readonly OCELot = new Tag('Ocelot Gateway', '#5a7581');
+    static readonly REDIS = new Tag('Redis', '#d82c20');
+    static readonly JWT = new Tag('Redis', '#d82c20');
 
     private constructor(private readonly key: string, public readonly color: string) {
     }
